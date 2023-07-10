@@ -1,0 +1,91 @@
+@import url("https://uilight.netlify.app/main.css");
+
+:root{
+    --primary-color:antiquewhite;
+    --secondary-color:rgb(145, 18, 18);
+}
+
+body{
+    margin: 0;
+}
+
+
+.heading{
+    color: var(--secondary-color);
+}
+
+
+.nav-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    background-color: var(--primary-color);
+    margin-top:0;
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    
+   
+}
+
+li{
+    margin-left: 2rem;
+    cursor: pointer;
+    list-style: none;
+    color: var(--secondary-color);
+}
+
+input{
+    border:none;
+    border-bottom: 1px solid var(--secondary-color);
+    
+    background: transparent;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#my-icons{
+   
+    font-size: 3rem;
+    color: white;
+ 
+}
+
+.naming{
+    font-size: 1rem;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.filter {
+    border: 2px solid black;
+    margin-left: 2rem;
+    width: 20%;
+    height: 20rem;
+    margin-top: 2rem;
+
+}
+
+
+.product-container{
+    border: 2px solid black;
+    margin-right: 2rem;
+    width: 70%;
+    height: 20rem;
+    margin-top: 2rem;
+}
+
+
