@@ -42,6 +42,7 @@ export const getRecipesCard = (recipes,parentElement,createElement)=>{
        const cardRatingContainer = createElement("div");
        
        const ratingValueElement = createElement("span");
+       ratingValueElement.classList.add("cuisine-icon")
        
        ratingValueElement.innerText = `Cuisine: ${recipe.Cuisine}`;
 
@@ -61,6 +62,7 @@ export const getRecipesCard = (recipes,parentElement,createElement)=>{
        lengthElement.appendChild(ratingIconElement);
 
        const duration = createElement("span");
+       duration.classList.add("duration")
        duration.innerText= `${recipe.TotalTimeInMins}mins`;
   
        lengthElement.appendChild(duration);

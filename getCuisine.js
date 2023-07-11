@@ -5,7 +5,7 @@ for(let cuisine of cuisines){
 //always write cuisine for cuisine.ID or any
     //cuisine container
 const cuisineContainer = createElement("div");
-cuisineContainer.classList.add("filter");
+cuisineContainer.classList.add("filter-cuisine");
 cuisineContainer.setAttribute("data-id",cuisines.ID)
 
    //creating Checkbox
@@ -22,6 +22,7 @@ label.appendChild(checkBox);
 
 //labelText
 const labelText =createElement("span");
+labelText.classList.add("label-text")
 labelText.innerText=cuisine.Cuisine;
 labelText.setAttribute("data-id",cuisine.ID);
 label.appendChild(labelText);
