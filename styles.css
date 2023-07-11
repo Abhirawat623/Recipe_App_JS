@@ -1,4 +1,9 @@
+
+
 @import url("https://uilight.netlify.app/main.css");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined");
+
 
 :root{
     --primary-color:antiquewhite;
@@ -28,8 +33,6 @@ ul{
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
-    
-   
 }
 
 li{
@@ -76,16 +79,51 @@ footer{
     width: 20%;
     height: 20rem;
     margin-top: 2rem;
-
 }
-
-
-.product-container{
+.dishes-container{
     border: 2px solid black;
     margin-right: 2rem;
     width: 70%;
-    height: 20rem;
     margin-top: 2rem;
 }
 
+#dishes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    padding-left: 3.7rem;
+    padding-top: 2rem;
+}
 
+.card{
+    border: 2px solid rgb(107, 106, 106);
+    height: 25rem;
+    width: 15rem;
+    margin-top: 15px;
+}
+
+.card-image-container{
+    height: 45%;
+    width: 100%;
+    
+}
+
+.card-image{
+    height: 100%;
+    width: 100%;
+}
+
+.recipe-title{
+    font-size: 1rem;
+    font-weight: bolder;
+    
+}
+
+.recipe-details{
+padding-left:4px;
+padding-right:2px;
+padding-top: 7px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+
+}
