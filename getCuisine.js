@@ -6,7 +6,7 @@ for(let cuisine of cuisines){
     //cuisine container
 const cuisineContainer = createElement("div");
 cuisineContainer.classList.add("filter-cuisine");
-cuisineContainer.setAttribute("data-id",cuisines.ID)
+cuisineContainer.setAttribute("data-id",cuisine.ID)
 
    //creating Checkbox
 
@@ -32,3 +32,10 @@ cuisineContainer.appendChild(label);
 parentElement.appendChild(cuisineContainer);
 }
 }
+
+
+
+
+
+
+
