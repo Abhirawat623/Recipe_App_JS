@@ -1,7 +1,7 @@
 ##  Recipe_App_JS
 
-Finding recipe is such a boring and time takin task,
-lets reduce our stress wit my recipe app.
+Finding recipe is such a boring and time taking task,
+lets reduce our stress with my recipe app.
 The app let you find the recipe and their cuisines ,fetching data of 
 duration, ingredients, and  beautiful mouth watering images of meals.
 
