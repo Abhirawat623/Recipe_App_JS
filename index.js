@@ -17,8 +17,8 @@ let arrOfSelectedCuisine =[];
 const createElement = (element) => document.createElement(element);
 
 
-const recipeURL = "https://recipeapi.prakashsakari.repl.co/api/recipes";
-const cuisineURL ="https://recipeapi.prakashsakari.repl.co/api/recipes/cuisines"
+const recipeURL = "./db.json";
+
 
 
 const getData = async (recipeURL)=>{
@@ -33,7 +33,7 @@ catch(err){
 };
 
 const recipes = await getData(recipeURL);
-const cuisines = await getData(cuisineURL);
+const cuisines = await getData(recipeURL);
 console.log(cuisines);
 
 
